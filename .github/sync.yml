@@ -23,3 +23,5 @@ group:
       dest: .config/
     - source: .build/csharp/recipe.cake
       dest: recipe.cake
+    repos: |
+      AdmiringWorm/test-templates
