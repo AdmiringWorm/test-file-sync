@@ -17,7 +17,7 @@ group:
       dest: .github/workflows/
       deleteOrphaned: true
     - source: .build/csharp/
-      dest: /
+      dest: ./
       deleteOrphaned: true
       exclude: |
         recipe.cake
