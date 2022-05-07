@@ -9,5 +9,5 @@ group:
       dest: .editorconfig
     - source: .gitattributes
       dest: .gitattributes
-  - repos: |
+    repos: |
       AdmiringWorm/test-label-repository
