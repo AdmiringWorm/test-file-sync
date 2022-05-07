@@ -16,6 +16,10 @@ group:
     - source: .github/dest-workflows/
       dest: .github/workflows/
       deleteOrphaned: true
-    - source: .build/csharp/
-      dest: /
+    - source: .build/csharp/scripts/
+      dest: .build/
       deleteOrphaned: true
+    - source: .build/csharp/.config/
+      dest: .config/
+    - source: .build/csharp/recipe.cake
+      dest: recipe.cake
