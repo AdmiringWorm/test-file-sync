@@ -1,4 +1,4 @@
-#include "./common.cake"
+#include "./.build/common.cake"
 
 Environment.SetVariableNames();
 
