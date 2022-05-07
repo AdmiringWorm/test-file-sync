@@ -1,3 +1,5 @@
 AdmiringWorm/test-label-repository:
   - LICENSE.txt
   - .gitignore
+  - .editorconfig
+  - .gitattributes
