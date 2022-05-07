@@ -1,9 +1,13 @@
 group:
   # Common grouped files
   - files:
-    - LICENSE.txt
-    - .gitignore
-    - .editorconfig
-    - .gitattributes
+    - source: LICENSE.txt
+      dest: LICENSE.txt
+    - source: .gitignore
+      dest: .gitignore
+    - source: .editorconfig
+      dest: .editorconfig
+    - source: .gitattributes
+      dest: .gitattributes
   - repos: |
       AdmiringWorm/test-label-repository
