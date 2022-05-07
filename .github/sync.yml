@@ -1,5 +1,9 @@
-AdmiringWorm/test-label-repository:
-  - LICENSE.txt
-  - .gitignore
-  - .editorconfig
-  - .gitattributes
+group:
+  # Common grouped files
+  - files:
+    - LICENSE.txt
+    - .gitignore
+    - .editorconfig
+    - .gitattributes
+  - repos: |
+      AdmiringWorm/test-label-repository
