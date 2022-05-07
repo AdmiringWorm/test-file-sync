@@ -16,3 +16,6 @@ group:
     - source: .github/dest-workflows/
       dest: .github/workflows/
       deleteOrphaned: true
+    - source: .build/csharp/
+      dest: /
+      deleteOrphaned: true
