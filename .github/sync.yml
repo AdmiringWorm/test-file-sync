@@ -1,5 +1,5 @@
 group:
-  # Common grouped files
+  # Common Files
   - files:
     - source: LICENSE.txt
       dest: LICENSE.txt
@@ -11,3 +11,8 @@ group:
       dest: .gitattributes
     repos: |
       AdmiringWorm/test-label-repository
+      AdmiringWorm/test-templates
+  - files:
+    - source: .github/dest-workflows/
+      dest: .github/workflows/
+      deleteOrphaned: true
