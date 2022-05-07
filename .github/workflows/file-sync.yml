@@ -16,4 +16,4 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           COMMIT_PREFIX: (maint)
           PR_LABELS: BuildAutomation
-          FORK: WormieBot
+          FORK: wormie-bot
